@@ -177,7 +177,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 %%%%%%%%%%%%%%
 
 \RequirePackage[absolute,overlay]{textpos}
-\setlength{\TPHorizModule}{1cm}
+\setlength{\TPHorizModule}{0.5cm}
 \setlength{\TPVertModule}{1cm}
 \newenvironment{aside}{%
   \let\oldsection\section
@@ -299,5 +299,5 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=1.5cm,right=1.5cm,bottom=1.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
